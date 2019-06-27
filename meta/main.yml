@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: William Gregorian
+  author: Eric Solomon
   description: Ansible Role to instal SumoLogic SumoCollector
-  company: Omada Health
+  company: Conversion Logic
   license: license (MIT)
   min_ansible_version: 1.8
   platforms:
@@ -20,6 +20,9 @@ galaxy_info:
     - wheezy
     - sid
     - stretch
+  - name: Amazon
+    versions:
+    - 1
   galaxy_tags:
   - monitoring
 dependencies: []
