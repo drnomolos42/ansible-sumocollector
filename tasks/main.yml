@@ -8,9 +8,6 @@
 # sumo.conf is deprecated in prefence of user.properties
 # This should be sym-linked by /opt/SumoCollector/config/user.properties
 # in mounted into container
-- debug:
-  msg: single source var is {{ sumologic_single_source_file }}
-
 - name: 'Ensure sumologic_config_dir exists'
   file:
     state: directory
