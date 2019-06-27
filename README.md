@@ -1,5 +1,9 @@
 [![Build Status - Master](https://travis-ci.org/juju4/ansible-sumocollector.svg?branch=master)](https://travis-ci.org/juju4/ansible-sumocollector)
 [![Build Status - Devel](https://travis-ci.org/juju4/ansible-sumocollector.svg?branch=devel)](https://travis-ci.org/juju4/ansible-sumocollector/branches)
+# DO NOT USE
+
+This is a fork to add amazon linux support. TESTING
+
 # SumoCollector
 
 Ansible role to install SumoCollector. This role was based on wgregorian as recommended by Sumo staff and modcloth's role inspiration.  That was a native install using yum.  
